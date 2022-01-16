@@ -22,6 +22,7 @@ p {color: white; text-align: center;}
     #pack {font-size: 10px; width: 200px;}
     #pplogo {width: 78px;}
     #titolo {font-size: 30px;}
+    #ver {font-size:9px}
 }
 
 @media (max-width:414px) {
