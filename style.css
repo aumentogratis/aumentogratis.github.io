@@ -1,0 +1,39 @@
+body {background-color: black;}
+@font-face {font-family: 'font1'; src: url(font1.ttf);}
+@font-face {font-family: 'font2'; src: url(font2.ttf);}
+#titolo {color: white; font-family: font1; text-align: center; font-size: 50px;}
+#desc {color: white; font-family: font2; font-size: 18px; text-align: center;}
+#abbonamenti {text-align: center; color: white; width: 700px;}
+#pack {text-align: center; color: white; width: 700px;}
+a {color: white;}
+p {color: white; text-align: center;}
+#back {background-image: url('logo.jpg'); background-size: 20%;}
+
+
+@media (max-width:730px) {
+    #abbonamenti {width: 450px; font-size: 10px;}
+    #pack {width: 450px; font-size: 10px;}
+    #desc {font-size: 14px;}
+}
+
+@media (max-width: 530px) {
+    #abbonamenti {font-size: 10px; width: 200px;}
+    #pack {font-size: 10px; width: 200px;}
+    #pplogo {width: 78px;}
+    #titolo {font-size: 30px;}
+}
+
+@media (max-width:414px) {
+    #back {background-size: 25%; height: 50px;}
+    #abbonamenti {font-size: 7px; width: 70px;}
+    #pack {font-size: 7px; width: 70px;}
+    #pplogo {width: 70px;}
+    #desc {font-size: 10px;}
+}
+
+@media (max-width: 292px) {
+    #abbonamenti {font-size: 7px; width: 60px;}
+    #pack {font-size: 7px; width: 60px;}
+    #pplogo {width: 55px;}
+
+}
