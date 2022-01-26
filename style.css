@@ -3,12 +3,17 @@ body {background-color: black;}
 @font-face {font-family: 'font2'; src: url(font2.ttf);}
 #titolo {color: white; font-family: font1; text-align: center; font-size: 50px;}
 #desc {color: white; font-family: font2; font-size: 18px; text-align: center;}
-#pack {text-align: center; color: white; width: 720px;}
+#pack {text-align: center; color: white; width: 720px; transition: .5 ease;}
+#pack:hover {box-shadow: 0 0 0 10px darkgray; transition: .5s ease;}
 #social {word-spacing: 18px;} 
 a {color: white;}
+#pplogo {transition: 1s ease; width: 120px;}
 #ver {font-size: 20px;}
-p {color: white; text-align: center;}
+p {color: white; text-align: center; transition: 1s ease;}
 #sfondo {background-image: url('logo.jpg'); background-size: 20%;}
+#special {text-align: center; color: white;}
+p:hover {-webkit-transform: scale(1.2); -ms-transform: scale(1.2); transform: scale(1.2); transition: .4s ease;}
+#pplogo:hover {-webkit-transform: scale(1.2); -ms-transform: scale(1.2); transform: scale(1.2); transition: .4s ease;}
 
 
 @media (max-width:730px) {
@@ -33,7 +38,8 @@ p {color: white; text-align: center;}
     #pplogo {width: 70px;}
     #desc {font-size: 10px;}
     #sfondo {background-image: url('logo.jpg'); background-size: 20%; height: 50px;}
-    #social {word-spacing: 18px; font-size: 10.5px;} 
+    #social {word-spacing: 18px; font-size: 10.5px;}
+    #special {text-align: center; color: white; width: 200px; font-size: 12.5px;} 
 }
 
 @media (max-width: 292px) {
