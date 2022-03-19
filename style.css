@@ -10,21 +10,26 @@ a {color: white;}
 #pplogo {transition: 1s ease; width: 120px;}
 #ver {font-size: 20px;}
 p {color: white; text-align: center; transition: 1s ease;}
-#sfondo {background-image: url('logo.jpg'); background-size: 20%;}
+#sfondo {background-image: url('logo.jpg'); background-size: 11%;}
 p:hover {-webkit-transform: scale(1.2); -ms-transform: scale(1.2); transform: scale(1.2); transition: .4s ease;}
 #pplogo:hover {-webkit-transform: scale(1.2); -ms-transform: scale(1.2); transform: scale(1.2); transition: .4s ease;}
+span {margin-bottom: 10px;}
+
+
+
 
 
 @media (max-width:730px) {
     #abbonamenti {width: 450px; font-size: 15px;}
-    #pack {width: 450px; font-size: 15px;}
+    #pack {width: 450px; font-size: 13px;}
     #desc {font-size: 14px;}
     #sfondo {background-image: url('logo.jpg'); background-size: 20%; height: 80px;}
+    #pplogo {width: 90px;}
 }
 
 @media (max-width: 530px) {
     #abbonamenti {font-size: 12.5px; width: 200px;}
-    #pack {font-size: 14px; width: 390px;}
+    #pack {font-size: 11px; width: 390px;}
     #pplogo {width: 78px;}
     #titolo {font-size: 30px;}
     #ver {font-size: 14px;}
@@ -33,8 +38,8 @@ p:hover {-webkit-transform: scale(1.2); -ms-transform: scale(1.2); transform: sc
 @media (max-width:414px) {
     #back {background-size: 25%; height: 50px;}
     #abbonamenti {font-size: 7px; width: 70px;}
-    #pack {font-size: 12.5px; width: 290px; height: 200px;}
-    #pplogo {width: 70px;}
+    #pack {font-size: 9px; width: 290px; height: 200px;}
+    #pplogo {width: 60px;}
     #desc {font-size: 10px;}
     #sfondo {background-image: url('logo.jpg'); background-size: 20%; height: 50px;}
     #social {word-spacing: 18px; font-size: 10.5px;}
@@ -42,8 +47,8 @@ p:hover {-webkit-transform: scale(1.2); -ms-transform: scale(1.2); transform: sc
 
 @media (max-width: 292px) {
     #abbonamenti {font-size: 7px; width: 60px;}
-    #pack {font-size: 10px; width: 222px;}
-    #pplogo {width: 55px;}
+    #pack {font-size: 7px; width: 222px;}
+    #pplogo {width: 43px;}
     #sfondo {background-image: url('logo.jpg'); background-size: 20%; height: 30px;}
     #desc {font-size: 8px;}
     #titolo {font-size: 23px;}
